@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock | Paper | Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="game">
+
+        <div class="score fadeOut">
+            <div class="player-score">
+                <h3>Player</h3>
+                <p>0</p>
+            </div>
+            <div class="computer-score">
+                <h3>Computer</h3>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Rock | Paper | Scissor</h1>
+            <button id="playbtn">Let's Play</button>
+        </div>
+
+        <div class="match fadeOut">
+            <h2 class="winner">Choose your weapon.</h2>
+            <div class="hands">
+                <img src="./IMG/rock.png" alt="" class="player-hand">
+                <img src="./IMG/rock.png" alt="" class="computer-hand">
+            </div>
+            <div class="options">
+                <button class="rock">rock</button>
+                <button class="paper">paper</button>
+                <button class="scissors">scissors</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
